@@ -556,6 +556,7 @@ input, textarea, button {
 }
 
 .subscribe-email {
+    display: flex;
     gap: 24px;
 }
 
