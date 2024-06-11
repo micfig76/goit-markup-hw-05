@@ -553,12 +553,13 @@ input, textarea, button {
 
 .bottom-form {
     display: flex;
-}
-
-.subscribe-email {
-    display: flex;
     gap: 24px;
 }
+
+/* .subscribe-email {
+    display: flex;
+    gap: 24px;
+} */
 
 .email-field {
     width: 264px;
