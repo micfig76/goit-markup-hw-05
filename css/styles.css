@@ -678,10 +678,10 @@ input::placeholder {
 
 }
 
-.icon-vector:hover {
+.btn-close:hover {
     fill: #ffffff;
 }
 
-.icon-vector:focus {
+.btn-close:focus {
     fill: #ffffff;
     }
