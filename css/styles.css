@@ -698,8 +698,11 @@ input::placeholder {
 .contact-form {
     margin-top: 8px;
 }
-
 .form-name {
+    margin-bottom: 8px;
+}
+
+.user-name {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
