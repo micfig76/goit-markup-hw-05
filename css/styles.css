@@ -670,18 +670,13 @@ input::placeholder {
 .btn-close:hover {
     border: none;
     background-color: #404bbf;
-
-}
-
-.icon-vector {
-    trosnition: fill 250ms cubic-brezier(0.4, 0, 0.2, 1);
-
-}
-
-.btn-close:hover {
     fill: #ffffff;
-}
 
+}
 .btn-close:focus {
     fill: #ffffff;
     }
+
+.icon-vector {
+    transition: fill 250ms cubic-brezier(0.4, 0, 0.2, 1);
+}
