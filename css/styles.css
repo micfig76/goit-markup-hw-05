@@ -666,8 +666,22 @@ input::placeholder {
     height: 24px;
     border-radius: 50%;
 }
+
 .btn-close:hover {
     border: none;
     background-color: #404bbf;
-    
+
 }
+
+.icon-vector {
+    trosnition: fill 250ms cubic-brezier(0.4, 0, 0.2, 1);
+
+}
+
+.icon-vector:hover {
+    fill: #ffffff;
+}
+
+.icon-vector:focus {
+    fill: #ffffff;
+    }
