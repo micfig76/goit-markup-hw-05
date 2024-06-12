@@ -665,5 +665,9 @@ input::placeholder {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-
+}
+.btn-close:hover {
+    border: none;
+    background-color: #404bbf;
+    
 }
