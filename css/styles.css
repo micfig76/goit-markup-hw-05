@@ -752,3 +752,6 @@ input::placeholder {
 .icon-user:focus {
     fill: #4d5ae5;
 }
+.user-data:focus + .icon-user {
+    fill: #4d5ae5;
+}
