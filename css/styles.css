@@ -700,7 +700,7 @@ input::placeholder {
 }
 
 .form-details {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .user {
@@ -754,4 +754,14 @@ input::placeholder {
 }
 .user-data:focus + .icon-user {
     fill: #4d5ae5;
+}
+
+.user-text-field {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border-radius: ;
 }
