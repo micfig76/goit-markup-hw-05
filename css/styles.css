@@ -773,3 +773,14 @@ input::placeholder {
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.user-text-field:focus {
+    border-color: #4d5ae5;
+}
+
+.user-field-checkbox {
+
+}
+.user-field-checkbox-privacy {
+    
+}
