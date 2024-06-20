@@ -782,9 +782,16 @@ input::placeholder {
 
 }
 .user-field-checkbox-privacy {
-
+margin-bottom: 24px;
 }
 
 .privacy-head {
     font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+
+}
+.privacy-head-outside {
+    width: 16px;
 }
