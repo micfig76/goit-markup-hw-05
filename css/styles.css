@@ -806,9 +806,11 @@ input::placeholder {
     fill: transparent;
 }
 
-.icon-checkmark2 {}
+.icon-checkmark2 {
 
-.user-field-checkbox-privacy input[type=checkbox]:checked~.privacy-head-outside {
+}
+
+.user-field-checkbox-privacy input[type=checkbox]:checked ~ .privacy-head-outside {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
