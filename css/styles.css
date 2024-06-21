@@ -700,7 +700,7 @@ input::placeholder {
 }
 
 .form-details {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .user {
@@ -779,10 +779,11 @@ input::placeholder {
 }
 
 .user-field-checkbox {
-margin-bottom: 24px;
+    margin-bottom: 24px;
 }
+
 .user-field-checkbox-privacy {
-margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .privacy-head {
@@ -792,19 +793,26 @@ margin-bottom: 24px;
     color: #8E8F99;
 
 }
+
 .privacy-head-outside {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
-
-    
 }
-.icon-checkmark2 {
-    
+
+.icon-checkmark2 {}
+
+.user-field-checkbox-privacy input[type=checkbox]:checked~.privacy-head-outside {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+.privacy-link {
+    color: #4d5ae5;
 }
