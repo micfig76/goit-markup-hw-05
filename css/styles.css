@@ -810,7 +810,7 @@ input::placeholder {
 
 }
 
-.user-field-checkbox-privacy input[type=checkbox]:checked ~ .privacy-head-outside {
+.user-field-checkbox-privacy:checked + .privacy-head .privacy-head-outside {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
