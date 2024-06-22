@@ -699,10 +699,6 @@ input::placeholder {
     margin-top: 8px;
 }
 
-.form-details {
-    margin-bottom: 8px;
-}
-
 .user {
     font-size: 12px;
     line-height: 1.17;
@@ -804,10 +800,6 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-
-.icon-checkmark2 {
-
 }
 
 .user-field-checkbox-privacy:checked + .privacy-head .privacy-head-outside {
