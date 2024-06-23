@@ -695,6 +695,13 @@ input::placeholder {
     margin-bottom: 16px;
 }
 
+.form-details-one {
+    margin-bottom: 8px;
+}
+.form-details-four {
+margin-bottom: 16px;
+} 
+
 .contact-form {
     margin-top: 8px;
 }
