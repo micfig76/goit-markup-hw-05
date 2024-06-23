@@ -669,16 +669,11 @@ input::placeholder {
     border-radius: 50%;
 }
 
-.btn-close:hover {
-    border: none;
-    fill: #ffffff;
-    background-color: #404bbf;
-}
-
+.btn-close:hover,
 .btn-close:focus {
+    border: none;
     fill: #ffffff;
     background-color: #404bbf;
-    border: none;
 }
 
 .icon-vector {
