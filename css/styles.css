@@ -810,7 +810,7 @@ margin-bottom: 16px;
     fill: transparent;
 }
 
-.user-field-checkbox-privacy:checked+.privacy-head .privacy-head-outside {
+.user-field-checkbox-privacy:checked +.privacy-head .privacy-head-outside {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
